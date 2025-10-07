@@ -1,0 +1,27 @@
+{
+  "latest_version": "0.84",
+  "release_date": "2025-01-15",
+  "download_url": "https://github.com/{당신의아이디}/rainbow-one-updates/releases/download/v0.84/rainbow_one_v0.84.exe",
+  "file_size_mb": 150,
+  "sha256": "임시값_나중에_실제_릴리스시_업데이트",
+  "force_update": false,
+  "minimum_version": "0.80",
+  "release_notes_url": "https://github.com/{당신의아이디}/rainbow-one-updates/releases/tag/v0.84",
+  "changelog": [
+    {
+      "category": "features",
+      "title": "새로운 기능",
+      "items": [
+        "자동 업데이트 시스템 추가",
+        "업데이트 알림 다이얼로그"
+      ]
+    },
+    {
+      "category": "fixes",
+      "title": "버그 수정",
+      "items": [
+        "초기 버전 릴리스"
+      ]
+    }
+  ]
+}
