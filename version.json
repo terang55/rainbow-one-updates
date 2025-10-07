@@ -1,27 +1,35 @@
 {
   "latest_version": "0.84",
   "release_date": "2025-01-15",
-  "download_url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.84/rainbow_one_v0.84.exe",
-  "file_size_mb": 150,
-  "sha256": "임시값_나중에_실제_릴리스시_업데이트",
-  "force_update": false,
-  "minimum_version": "0.80",
-  "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.84",
-  "changelog": [
-    {
-      "category": "features",
-      "title": "새로운 기능",
-      "items": [
-        "자동 업데이트 시스템 추가",
-        "업데이트 알림 다이얼로그"
-      ]
-    },
-    {
-      "category": "fixes",
-      "title": "버그 수정",
-      "items": [
-        "초기 버전 릴리스"
-      ]
+  "download": {
+    "windows": {
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.84/rainbow_one_v0.84_test.exe",
+      "size_mb": 4,
+      "sha256": "1b56de55efd48322b66afb64a16c7997d49db3a7ed958d9193e4541e2077f745"
     }
-  ]
+  },
+  "changelog": {
+    "changes": [
+      {
+        "category": "feature",
+        "title": "새 기능",
+        "items": [
+          "✨ 자동 업데이트 시스템 추가",
+          "📊 업데이트 진행률 표시"
+        ]
+      },
+      {
+        "category": "bugfix",
+        "title": "버그 수정",
+        "items": [
+          "🐛 아파트 정보 수집 리디렉션 문제 해결"
+        ]
+      }
+    ]
+  },
+  "update_policy": {
+    "force_update": false,
+    "minimum_version": "0.80",
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.84"
+  }
 }
