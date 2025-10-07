@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.84",
-  "release_date": "2025-10-07",
+  "latest_version": "0.85",
+  "release_date": "2025.10.08",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.84/rainbow_one_v0.84.exe",
-      "size_mb": 112,
-      "sha256": "968712a4fb3851200c0fb96518887ab2fbe64e47528046431f5f0c0ba39048f9"
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.85/rainbow_one_v0.85.exe",
+      "size_mb": 113,
+      "sha256": "cfe670eeed69762a973a828a33f660034edf52177a0c94f4ce4bc52169f2cd40"
     }
   },
   "changelog": {
@@ -14,27 +14,21 @@
         "category": "feature",
         "title": "🎉 새 기능",
         "items": [
-          "자동 업데이트 시스템 추가 (사용자 지정 폴더 다운로드)",
-          "업데이트 진행률 표시 (속도, 남은 시간)",
-          "SHA256 파일 무결성 검증"
+          "도움말업데이트, 자동업데이트 기능 추가"
         ]
       },
       {
         "category": "improvement",
         "title": "⚡ 성능 개선",
         "items": [
-          "OneView Fast 모드 21-23% 속도 향상 (42-60초 → 33-51초)",
-          "KB시세 수집 30-35% 최적화 (13-20초 → 10-14초)",
-          "Chrome WebDriver 메모리 사용량 최적화"
+          "도움말업데이트, 자동업데이트 기능 추가"
         ]
       },
       {
         "category": "bugfix",
         "title": "🔨 버그 수정",
         "items": [
-          "아파트 정보 수집 리디렉션 문제 완전 해결",
-          "PathManager onefile 경로 안정화 (4단계 fallback)",
-          "Chrome GetHandleVerifier 에러 자동 복구 강화"
+          "도움말업데이트, 자동업데이트 기능 추가"
         ]
       }
     ]
@@ -42,6 +36,6 @@
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.84"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.85"
   }
 }
