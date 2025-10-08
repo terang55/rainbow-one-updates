@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.85",
+  "latest_version": "0.86",
   "release_date": "2025.10.08",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.85/rainbow_one_v0.85.exe",
-      "size_mb": 113,
-      "sha256": "cfe670eeed69762a973a828a33f660034edf52177a0c94f4ce4bc52169f2cd40"
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.86/rainbow_one_v0.86.exe",
+      "size_mb": 51,
+      "sha256": "2470f6e97dfae8795d8cea359ed3eade76e79c6ebc8b8f9fd7af17fabec6cff3"
     }
   },
   "changelog": {
@@ -14,21 +14,21 @@
         "category": "feature",
         "title": "🎉 새 기능",
         "items": [
-          "도움말업데이트, 자동업데이트 기능 추가"
+          "도움말 개선"
         ]
       },
       {
         "category": "improvement",
         "title": "⚡ 성능 개선",
         "items": [
-          "도움말업데이트, 자동업데이트 기능 추가"
+          "도움말 개선"
         ]
       },
       {
         "category": "bugfix",
         "title": "🔨 버그 수정",
         "items": [
-          "도움말업데이트, 자동업데이트 기능 추가"
+          "도움말 개선"
         ]
       }
     ]
@@ -36,6 +36,6 @@
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.85"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.86"
   }
 }
