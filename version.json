@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.86",
-  "release_date": "2025.10.08",
+  "latest_version": "0.87",
+  "release_date": "2025.10.13",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.86/rainbow_one_v0.86.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.87/rainbow_one_v0.87.exe",
       "size_mb": 51,
-      "sha256": "2470f6e97dfae8795d8cea359ed3eade76e79c6ebc8b8f9fd7af17fabec6cff3"
+      "sha256": "a3ed328de044415a1a9fcb360e4511c640b898d9d1172614e78b9df3517a96ee"
     }
   },
   "changelog": {
@@ -14,21 +14,21 @@
         "category": "feature",
         "title": "🎉 새 기능",
         "items": [
-          "도움말 개선"
+          "설정 다이얼로그 완전 재구성"
         ]
       },
       {
         "category": "improvement",
         "title": "⚡ 성능 개선",
         "items": [
-          "도움말 개선"
+          "구독 관리 UI 대폭 개선"
         ]
       },
       {
         "category": "bugfix",
         "title": "🔨 버그 수정",
         "items": [
-          "도움말 개선"
+          "설정 시스템 정리"
         ]
       }
     ]
@@ -36,6 +36,6 @@
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.86"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.87"
   }
 }
