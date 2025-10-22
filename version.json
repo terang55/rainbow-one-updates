@@ -1,41 +1,19 @@
 {
-  "latest_version": "0.87",
-  "release_date": "2025.10.13",
+  "latest_version": "0.88",
+  "release_date": "2025.10.22",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.87/rainbow_one_v0.87.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.88/rainbow_one_v0.88.exe",
       "size_mb": 51,
-      "sha256": "a3ed328de044415a1a9fcb360e4511c640b898d9d1172614e78b9df3517a96ee"
+      "sha256": "681c75cfd914c60e6bc84e852ead3f3412b060c6aa6b14d052627356eb629d8c"
     }
   },
   "changelog": {
-    "changes": [
-      {
-        "category": "feature",
-        "title": "🎉 새 기능",
-        "items": [
-          "설정 다이얼로그 완전 재구성"
-        ]
-      },
-      {
-        "category": "improvement",
-        "title": "⚡ 성능 개선",
-        "items": [
-          "구독 관리 UI 대폭 개선"
-        ]
-      },
-      {
-        "category": "bugfix",
-        "title": "🔨 버그 수정",
-        "items": [
-          "설정 시스템 정리"
-        ]
-      }
-    ]
+    "changes": [   {     "category": "feature",     "title": "🎉 새 기능",     "items": [       "✨ Detail 모드 가격 오름차순 정렬 정상화"     ]   },   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "⚡ 개선 사항",       "🔧 전체 매물 누락 없이 완전 수집 보장"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "🔨 버그 수정",       "🐛 Detail 모드 가격 정렬 안 되던 문제 해결"     ]   } ]
   },
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.87"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.88"
   }
 }
