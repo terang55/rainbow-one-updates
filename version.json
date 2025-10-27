@@ -1,19 +1,19 @@
 {
-  "latest_version": "0.88",
-  "release_date": "2025.10.22",
+  "latest_version": "0.89",
+  "release_date": "2025.10.27",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.88/rainbow_one_v0.88.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.89/rainbow_one_v0.89.exe",
       "size_mb": 51,
-      "sha256": "1d26b95e54f092892148b78310ab81cf41002f64bb5d6231628d71d6ce3b6444"
+      "sha256": "572278523620c230b18c21580a701ed9083627f751105871e5e8c7e929119a0b"
     }
   },
   "changelog": {
-    "changes": [   {     "category": "feature",     "title": "🎉 새 기능",     "items": [       "✨ 자동 업데이트 기능 수정"     ]   },   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "⚡ 개선 사항"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "이번 버전에서는 해당 변경사항이 없습니다"     ]   } ]
+    "changes": [   {     "category": "feature",     "title": "🎉 새 기능",     "items": [       "이번 버전에서는 해당 변경사항이 없습니다"     ]   },   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "🎯 정규식 패턴 개선으로 모든 층 형식 처리",       "⚡ 개선 사항"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "🔨 버그 수정",       "🐛 Detail 모드 층 정보 추출 버그 수정"     ]   } ]
   },
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.88"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.89"
   }
 }
