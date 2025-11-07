@@ -9,7 +9,7 @@
     }
   },
   "changelog": {
-    "changes": [   "KB시세 추출 에러 수정",   "디테일모드 중개사 정보 추출 개선" ]
+    "changes": [   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "디테일모드 중개사 정보 추출 개선"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "KB시세 추출 에러 수정"     ]   } ]
   },
   "update_policy": {
     "force_update": false,
