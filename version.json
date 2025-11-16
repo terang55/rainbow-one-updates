@@ -1,19 +1,19 @@
 {
-  "latest_version": "0.90",
+  "latest_version": "0.91",
   "release_date": "2025.11.07",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.90/rainbow_one_v0.90.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.91/rainbow_one_v0.91.exe",
       "size_mb": 51,
-      "sha256": "b896c39e57dcdea527c2c0fefaef6a3a264412afdc355bf34ca148074c10ba29"
+      "sha256": "b0ae4778998eae4687e14513b4c714bc88183bc0099871d823e6711628b14f6a"
     }
   },
   "changelog": {
-    "changes": [   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "디테일모드 중개사 정보 추출 개선"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "KB시세 추출 에러 수정"     ]   } ]
+    "changes": [   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "불필요 에러 로그 개선"     ]   } ]
   },
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.90"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.91"
   }
 }
