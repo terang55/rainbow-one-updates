@@ -1,19 +1,19 @@
 {
-  "latest_version": "0.92",
-  "release_date": "2025.12.11",
+  "latest_version": "0.93",
+  "release_date": "2025.12.23",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.92/rainbow_one_v0.92.exe",
-      "size_mb": 55,
-      "sha256": "7d1c485b226015b92ddd1a9758a2d8b786f2216e1705899965181822a9e5715e"
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.93/rainbow_one_v0.93.exe",
+      "size_mb": 56,
+      "sha256": "96f633cdde8988e87ed468924b145f840c86c9f8b8341e7922365c177f3c5b2e"
     }
   },
   "changelog": {
-    "changes": [   {     "category": "feature",     "title": "🎉 새 기능",     "items": [       "대시보드 기능 추가",       "사용자 로그 최적화 (더보기 버튼 클릭 진행률 표시, 스크롤 완료 로그 추가)"     ]   },   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "매물 추출 속도 개선",       "분석 시작 버튼 가시성 개선"     ]   } ]
+    "changes": [   {     "category": "feature",     "title": "🎉 새 기능",     "items": [       "ChartView 사용 안내 문구 추가 (OneView 전용 파일 명시)"     ]   },   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "폰트 크기 조절 시스템 개선 (전체 UI 위젯 연동)",       "아파트 검색 기능 및 UX 개선 (베타)",       "시작 화면 및 다이얼로그 가독성 최적화"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "안정성 개선 및 버그 수정"     ]   } ]
   },
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.92"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.93"
   }
 }
