@@ -1,19 +1,19 @@
 {
-  "latest_version": "0.94",
-  "release_date": "2026.01.04",
+  "latest_version": "0.95",
+  "release_date": "2026.01.23",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.94/rainbow_one_v0.94.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.95/rainbow_one_v0.95.exe",
       "size_mb": 66,
-      "sha256": "6a38e1b63854416d01b0eafde2f65c0b59606702791dec18af4debca1c764823"
+      "sha256": "94f63eee3f0f429d4ccd3187ab64eb37dcafda0154b88fe7cc1b9faa318c2420"
     }
   },
   "changelog": {
-    "changes": [   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "[성능] 디테일 모드 '2채널 교차 수집' 도입 (수집 속도 2배 향상)",       "[안정성] 봇 감지 회피 최적화 (Persistent Identity 적용)",       "[UI/UX] 아파트 검색 기능 강화 및 도움말 가독성 개선"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "[시스템] 구조적 로깅(Structured Logging) 탑재로 자동 오류 진단 지원",       "기타 버그 수정 및 안정성 향상"     ]   } ]
+    "changes": [   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "[긴급] 네이버 부동산 사이트 구조 변경 대응 긴급 패치",       "[알림] 긴급 구조 변경으로 일부 기능 제한 가능성 있음 (지속 개선 예정)",       "[성능] 디테일 모드 수집 안정성 확보 및 로딩 속도 최적화"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "[수정] 데이터 추출 불가 문제 해결 (아파트명, 설명 등 핵심 로직 개선)"     ]   } ]
   },
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.94"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.95"
   }
 }
