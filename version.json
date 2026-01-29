@@ -1,19 +1,19 @@
 {
-  "latest_version": "0.95",
-  "release_date": "2026.01.23",
+  "latest_version": "0.96",
+  "release_date": "2026.01.29",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.95/rainbow_one_v0.95.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.96/rainbow_one_v0.96.exe",
       "size_mb": 66,
-      "sha256": "94f63eee3f0f429d4ccd3187ab64eb37dcafda0154b88fe7cc1b9faa318c2420"
+      "sha256": "6c41a17a5352176d5c16e040f94e1408e67338f4cf121d1119dc91dedbd931d3"
     }
   },
   "changelog": {
-    "changes": [   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "[긴급] 네이버 부동산 사이트 구조 변경 대응 긴급 패치",       "[알림] 긴급 구조 변경으로 일부 기능 제한 가능성 있음 (지속 개선 예정)",       "[성능] 디테일 모드 수집 안정성 확보 및 로딩 속도 최적화"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "[수정] 데이터 추출 불가 문제 해결 (아파트명, 설명 등 핵심 로직 개선)"     ]   } ]
+    "changes": [   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "[시스템] 네이버 부동산 구조 변경 자동 대응 프로토콜(SOP) 탑재"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "[개선] 엑셀 '중복매물' 개수 추출 로직 전면 수정 (네이버 동적 DOM 완벽 대응)",       "[수정] 실행 로그 메시지 간소화 및 오해 소지 제거 (\"매물 파싱 시작\" 등)",       "[수정] 단일 파일 빌드(EXE) 시 인트로 이미지(Splash) 누락 문제 해결"     ]   } ]
   },
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.95"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.96"
   }
 }
