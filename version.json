@@ -9,7 +9,7 @@
     }
   },
   "changelog": {
-    "changes": [   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "[시스템] 네이버 부동산 구조 변경 자동 대응 프로토콜(SOP) 탑재"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "[개선] 엑셀 '중복매물' 개수 추출 로직 전면 수정 (네이버 동적 DOM 완벽 대응)",       "[수정] 실행 로그 메시지 간소화 및 오해 소지 제거 (\"매물 파싱 시작\" 등)",       "[수정] 단일 파일 빌드(EXE) 시 인트로 이미지(Splash) 누락 문제 해결"     ]   } ]
+    "changes": [   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "[시스템] 매물사이트 구조 변경 대응"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "[개선] 엑셀 '중복매물' 개수 추출 로직 전면 수정",       "[수정] 실행 로그 메시지 수정"     ]   } ]
   },
   "update_policy": {
     "force_update": false,
