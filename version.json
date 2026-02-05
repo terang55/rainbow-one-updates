@@ -1,19 +1,19 @@
 {
-  "latest_version": "0.97",
-  "release_date": "2026.02.01",
+  "latest_version": "0.98",
+  "release_date": "2026.02.04",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.97/rainbow_one_v0.97.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.98/rainbow_one_v0.98.exe",
       "size_mb": 66,
-      "sha256": "029174eb0592edabb8ce8e45c3a7d96e4944f6495515e1ea0ad9edb41b90483e"
+      "sha256": "2f8bab06f219c5f3c4a2042d5cb770784d3cfc9e24a6f98c65acef47274513a6"
     }
   },
   "changelog": {
-    "changes": [   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "[개선] 멀티 아파트 수집 안정성 대폭 향상 (Force Cleanup 적용)",       "[시스템] 봇 탐지 우회를 위한 '과속 방지(Rate Limiting)' 로직 탑재"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "[수정] 연속 수집 시 발생하던 간헐적 타임아웃/누락 현상(짝수번 실패) 해결"     ]   } ]
+    "changes": [   {     "category": "feature",     "title": "🎉 새 기능",     "items": [       "[신규] 상세모드(Detail Mode) '입주가능일' 추출 및 엑셀 컬럼 추가 (향/중개사 사이)",       "[신규] 시스템 헬스체크(Health Check) 진단 도구 추가"     ]   },   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "[개선] 네이버 부동산 상세 페이지 봇 탐지 우회 로직 강화",       "[시스템] 시세 수집 필드 파싱 및 정밀 검증 대시보드 구현"     ]   } ]
   },
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.97"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.98"
   }
 }
