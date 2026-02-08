@@ -1,19 +1,19 @@
 {
-  "latest_version": "0.98",
-  "release_date": "2026.02.04",
+  "latest_version": "0.99",
+  "release_date": "2026.02.08",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.98/rainbow_one_v0.98.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.99/rainbow_one_v0.99.exe",
       "size_mb": 66,
-      "sha256": "2f8bab06f219c5f3c4a2042d5cb770784d3cfc9e24a6f98c65acef47274513a6"
+      "sha256": "fd1c30b629d124ed1579a7fa544304eb2a19beb0f2486665833467952d6e87a7"
     }
   },
   "changelog": {
-    "changes": [   {     "category": "feature",     "title": "🎉 새 기능",     "items": [       "[신규] 상세모드(Detail Mode) '입주가능일' 추출 및 엑셀 컬럼 추가 (향/중개사 사이)",       "[신규] 시스템 헬스체크(Health Check) 진단 도구 추가"     ]   },   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "[개선] 네이버 부동산 상세 페이지 봇 탐지 우회 로직 강화",       "[시스템] 시세 수집 필드 파싱 및 정밀 검증 대시보드 구현"     ]   } ]
+    "changes": [   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "[개선] 고해상도 모니터(High-DPI) 지원 강화 (글자 흐림/크기 문제 해결)",       "[시스템] 모던 GUI 전환을 위한 기반 작업 (v0.99)"     ]   } ]
   },
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.98"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.99"
   }
 }
