@@ -1,19 +1,19 @@
 {
-  "latest_version": "0.99",
-  "release_date": "2026.02.08",
+  "latest_version": "0.991",
+  "release_date": "2026.02.12",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.99/rainbow_one_v0.99.exe",
-      "size_mb": 66,
-      "sha256": "fd1c30b629d124ed1579a7fa544304eb2a19beb0f2486665833467952d6e87a7"
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v0.991/rainbow_one_v0.991.exe",
+      "size_mb": 65,
+      "sha256": "cb339607976c53c9932b1037d8f068bb4afdd2673d177ae0c38f8780d1680a32"
     }
   },
   "changelog": {
-    "changes": [   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "[개선] 고해상도 모니터(High-DPI) 지원 강화 (글자 흐림/크기 문제 해결)",       "[시스템] 모던 GUI 전환을 위한 기반 작업 (v0.99)"     ]   } ]
+    "changes": [   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "[개선] OneView 디테일모드 중복매물 추출 개선"     ]   },   {     "category": "bugfix",     "title": "🔨 버그 수정",     "items": [       "[개선] Compareview 추출 오류 개선"     ]   } ]
   },
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.99"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v0.991"
   }
 }
