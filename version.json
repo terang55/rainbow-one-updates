@@ -1,19 +1,29 @@
 {
-  "latest_version": "1.0",
-  "release_date": "2026.03.21",
+  "latest_version": "1.01",
+  "release_date": "2026.03.22",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v1.0/rainbow_one_v1.0.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v1.01/rainbow_one_v1.01.exe",
       "size_mb": 65,
-      "sha256": "a340b857b96377af3f4d70cf9e9077078bd305261420aa03c1b815e46fe04615"
+      "sha256": "e1406f85637e189b73907566a841bd776d4fb6ff3f7cd79c4891350f44e1de77"
     }
   },
   "changelog": {
-    "changes": [   {     "category": "improvement",     "title": "⚡ 개선 사항",     "items": [       "[개선] 부동산사이트변경대응",       "[개선] 묶음 매물 펼침 및 설명/중개사 추출 안정화",       "[개선] 스크롤 로딩 및 수집 속도 최적화"     ]   } ]
+    "changes": [
+      {
+        "category": "improvement",
+        "title": "⚡ 개선 사항",
+        "items": [
+          "[개선] KB시세 추출 개선",
+          "[개선] 면적 버튼/RadioLayer 기준 평형 감지 안정화",
+          "[개선] OneView KB 평형별 시세 매핑 정확도 개선"
+        ]
+      }
+    ]
   },
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v1.0"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v1.01"
   }
 }
