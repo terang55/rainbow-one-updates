@@ -1,11 +1,11 @@
 {
-  "latest_version": "1.1",
-  "release_date": "2026.04.05",
+  "latest_version": "1.2",
+  "release_date": "2026.04.06",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v1.1/rainbow_one_v1.1.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v1.2/rainbow_one_v1.2.exe",
       "size_mb": 279,
-      "sha256": "0cf3fd8cfef24ea3fcb541d935a78c9a8705c85b9a6695693bdafdb9d6df2c72"
+      "sha256": "c7c695be72db32f35eaa34afe413c81ea161bbddcb3785f651c42385ec63e720"
     }
   },
   "changelog": {
@@ -24,6 +24,6 @@
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v1.1"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v1.2"
   }
 }
