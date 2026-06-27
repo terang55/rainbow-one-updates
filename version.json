@@ -1,22 +1,32 @@
 {
-  "latest_version": "1.3",
-  "release_date": "2026.06.26",
+  "latest_version": "1.4",
+  "release_date": "2026.06.27",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v1.3/rainbow_one_v1.3.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v1.4/rainbow_one_v1.4.exe",
       "size_mb": 279,
-      "sha256": "5b5eed08456a8c87bc6845d6e915667a0bd3720c7965737d30db2e125f24221a"
+      "sha256": "9b71ea0b6b55de7021d8826e1e19458fcd192230c7d6643323d0f6f57ffbfe5a"
     }
   },
   "changelog": {
     "changes": [
       {
+        "category": "feature",
+        "title": "🎉 새 기능",
+        "items": [
+          "묶음 매물이 접혀 있는 경우도 더 안전하게 확인하도록 점검을 추가했습니다."
+        ]
+      },
+      {
         "category": "improvement",
         "title": "⚡ 개선 사항",
         "items": [
-          "매물 목록이 비어 보이던 문제를 개선했습니다.",
-          "KB시세를 가져오다가 잘못된 페이지로 이동하던 문제를 줄였습니다.",
-          "페이지가 잘못 열리면 다시 시도하도록 안정성을 높였습니다."
+          "아파트 기본정보가 일부만 나와도 한 번 더 확인해 빠진 정보를 채우도록 개선했습니다.",
+          "주소, 난방, 주차, 관리사무소 같은 단지 정보 누락을 줄였습니다.",
+          "매물 목록이 잠깐 비어 보일 때 바로 실패하지 않고 한 번 더 확인하도록 개선했습니다.",
+          "KB시세 조회 중 잘못된 페이지로 이동하는 경우를 더 잘 감지하도록 보강했습니다.",
+          "CompareView에서 단지별 수집 성공/실패 상태를 결과에 남기도록 개선했습니다.",
+          "배포 전 검사와 재발 방지 점검을 보강했습니다."
         ]
       }
     ]
@@ -24,6 +34,6 @@
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v1.3"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v1.4"
   }
 }
