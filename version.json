@@ -1,11 +1,11 @@
 {
-  "latest_version": "1.6",
-  "release_date": "2026.07.07",
+  "latest_version": "1.61",
+  "release_date": "2026.07.08",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v1.6/rainbow_one_v1.6.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v1.61/rainbow_one_v1.61.exe",
       "size_mb": 279,
-      "sha256": "d827e209f6880021e4d85cdc02f1139c24bca2390ca783464ed4a57ce3af0843"
+      "sha256": "c2287c2c08ac39b1af77285fe66860ad31a8009776cc81cc0681233adc93618c"
     }
   },
   "changelog": {
@@ -14,12 +14,10 @@
         "category": "improvement",
         "title": "⚡ 개선 사항",
         "items": [
-          "네이버 매물 페이지가 잘못 열려 매물이 0건으로 나오던 문제를 개선했습니다.",
-          "매물이 많은 단지에서 일부 매물만 가져오고 멈추던 문제를 개선했습니다.",
-          "첫 접속 때 네이버가 잘못된 페이지로 보내는 경우를 줄였습니다.",
-          "매물 페이지가 비어 보일 때 정상 페이지로 다시 연결하도록 보강했습니다.",
-          "KB시세와 3개월 평균 실거래 표시 개선도 함께 포함했습니다.",
-          "KB 평형 정보를 가져올 때 불필요한 재로딩을 줄였습니다."
+          "매물이 많은 단지에서 30개 또는 60개만 나오던 문제를 개선했습니다.",
+          "네이버가 잘못된 페이지로 보낸 뒤에도 매물 화면을 다시 확인하도록 보강했습니다.",
+          "매물 전체 개수가 맞을 때까지 더 안정적으로 기다리도록 개선했습니다.",
+          "KB시세와 3개월 평균 실거래 표시 개선도 함께 포함했습니다."
         ]
       }
     ]
@@ -27,6 +25,6 @@
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v1.6"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v1.61"
   }
 }
