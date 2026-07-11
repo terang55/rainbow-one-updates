@@ -1,11 +1,11 @@
 {
-  "latest_version": "1.61",
-  "release_date": "2026.07.08",
+  "latest_version": "1.70",
+  "release_date": "2026.07.10",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v1.61/rainbow_one_v1.61.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v1.70/rainbow_one_v1.70.exe",
       "size_mb": 279,
-      "sha256": "c2287c2c08ac39b1af77285fe66860ad31a8009776cc81cc0681233adc93618c"
+      "sha256": "734afd591c8d9279cf8a9a69f68505d7c3043c6e1f2fe1451bad1989256f9d6a"
     }
   },
   "changelog": {
@@ -14,10 +14,16 @@
         "category": "improvement",
         "title": "⚡ 개선 사항",
         "items": [
-          "매물이 많은 단지에서 30개 또는 60개만 나오던 문제를 개선했습니다.",
-          "네이버가 잘못된 페이지로 보낸 뒤에도 매물 화면을 다시 확인하도록 보강했습니다.",
-          "매물 전체 개수가 맞을 때까지 더 안정적으로 기다리도록 개선했습니다.",
-          "KB시세와 3개월 평균 실거래 표시 개선도 함께 포함했습니다."
+          "매물이 많은 단지에서 일부만 수집되는지 한 번 더 확인해 누락 가능성을 줄였습니다.",
+          "재확인 후 매물 수집률이 90% 이상이면 수집된 결과로 계속 진행하도록 개선했습니다.",
+          "매물 수를 재확인할 때 관계없는 화면 숫자를 기다리지 않도록 개선했습니다.",
+          "첫 확인과 재확인에서 서로 다르게 보인 매물을 안전한 경우에 한해 합쳐 누락 가능성을 줄였습니다.",
+          "이미 대부분 수집된 경우에는 짧게 재확인해 불필요한 대기 시간을 줄였습니다.",
+          "묶음 매물을 펼친 뒤 하위 매물의 링크와 설명이 함께 보존되도록 보강했습니다.",
+          "네이버가 잘못된 화면으로 이동한 경우 정상 매물 화면으로 돌아오도록 보강했습니다.",
+          "아파트 기본정보가 부족하면 다시 확인하고, 같은 실행에서 확인한 정보는 재사용하도록 개선했습니다.",
+          "KB시세의 평형, 3개월 평균 실거래, 3년 최고·최저, 매물 수 확인을 보강했습니다.",
+          "OneView와 CompareView가 정상적으로 수집되는지 배포 전에 확인하는 점검을 강화했습니다."
         ]
       }
     ]
@@ -25,6 +31,6 @@
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v1.61"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v1.70"
   }
 }
