@@ -1,11 +1,11 @@
 {
-  "latest_version": "1.93",
-  "release_date": "2026.09.19",
+  "latest_version": "1.94",
+  "release_date": "2026.09.23",
   "download": {
     "windows": {
-      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v1.93/rainbow_one_v1.93.exe",
+      "url": "https://github.com/terang55/rainbow-one-updates/releases/download/v1.94/rainbow_one_v1.94.exe",
       "size_mb": 313,
-      "sha256": "ab2b77c1900dc6d83cf9ea1ab779eb52215120d269e31b6e5d4b4cc7cca85754"
+      "sha256": "ae86140dd0365bb42a781d6e3f661cbfd6c7ee9294ece769f007b28efb0f5177"
     }
   },
   "changelog": {
@@ -23,6 +23,7 @@
         "items": [
           "Chrome가 자동으로 업데이트되어도 현재 설치된 브라우저에 맞춰 접속하도록 개선했습니다.",
           "브라우저와 드라이버 버전이 맞지 않으면 실제 사용 중인 버전에 맞춰 한 번 더 시도합니다.",
+          "재시도 때는 Chrome을 직접 연결하는 방식도 사용해 일부 PC의 실행 충돌을 줄입니다.",
           "Chrome 실행 실패 원인을 확인할 수 있도록 브라우저 진단 로그를 남깁니다.",
           "네이버 부동산 접속에 실패했을 때 잘못된 네이버페이 화면으로 넘어가는 문제를 줄였습니다.",
           "대형 단지 매물 수집 강화와 묶음 매물 누락 방지 기능은 그대로 유지됩니다."
@@ -33,6 +34,6 @@
   "update_policy": {
     "force_update": false,
     "minimum_version": "0.80",
-    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v1.93"
+    "release_notes_url": "https://github.com/terang55/rainbow-one-updates/releases/tag/v1.94"
   }
 }
